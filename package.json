@@ -1,0 +1,30 @@
+{
+  "name": "ts-esbuild-closure-reproducer",
+  "version": "1.0.0",
+  "description": "Reproducer for closure sourcemap issues",
+  "main": "index.js",
+  "scripts": {
+    "start": "tsc && node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DerGernTod/ts-esbuild-closure-reproducer.git"
+  },
+  "keywords": [
+    "closure",
+    "compiler",
+    "typescript",
+    "esbuild"
+  ],
+  "author": "Gernot Raudner",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DerGernTod/ts-esbuild-closure-reproducer/issues"
+  },
+  "homepage": "https://github.com/DerGernTod/ts-esbuild-closure-reproducer#readme",
+  "devDependencies": {
+    "esbuild": "^0.12.12",
+    "google-closure-compiler": "^20210601.0.0",
+    "typescript": "^4.3.4"
+  }
+}
